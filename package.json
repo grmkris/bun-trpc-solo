@@ -1,0 +1,19 @@
+{
+  "name": "bun-trpc-solo",
+  "module": "index.ts",
+  "type": "module",
+  "devDependencies": {
+    "bun-types": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  },
+  "dependencies": {
+    "@trpc/client": "^10.44.1",
+    "@trpc/server": "^10.44.1",
+    "zod": "^3.22.4"
+  },
+  "scripts": {
+    "dev": "bun run --watch index.ts"
+  }
+}
